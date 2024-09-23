@@ -1,0 +1,46 @@
+/* Asset Detail Page Styles */
+.asset-detail {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.asset-detail .asset-summary,
+.asset-detail .key-metrics,
+.asset-detail .transactions,
+.asset-detail .news-updates,
+.asset-detail .upcoming-events {
+    margin-bottom: 20px;
+}
+
+.asset-detail h3 {
+    margin-top: 0;
+}
+
+.asset-detail ul {
+    list-style: none;
+    padding: 0;
+}
+
+.asset-detail ul li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.asset-summary,
+.key-metrics,
+.transactions,
+.news-updates,
+.upcoming-events {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.asset-summary p,
+.key-metrics p {
+    margin: 10px 0;
+}

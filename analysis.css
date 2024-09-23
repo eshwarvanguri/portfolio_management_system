@@ -1,0 +1,20 @@
+/* Analysis Page Styles */
+.analysis {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.analysis .risk-assessment,
+.analysis .sector-allocation,
+.analysis .performance-comparison {
+    margin-bottom: 20px;
+}
+
+.analysis h3 {
+    margin-top: 0;
+}
+
+canvas {
+    max-width: 100%;
+}

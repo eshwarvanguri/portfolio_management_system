@@ -1,0 +1,64 @@
+/* Styles specific to the homepage */
+.banner {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.banner img {
+    width: 100%;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.banner h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.overview, .performance, .diversification, .top-assets, .recent-transactions {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.overview h2, .performance h2, .diversification h2, .top-assets h2, .recent-transactions h2 {
+    margin-top: 0;
+}
+
+.cards, .asset-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card, .asset-card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h3, .asset-card h3 {
+    margin-top: 0;
+}
+
+.recent-transactions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-transactions ul li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

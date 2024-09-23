@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #312e2e;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile img {
+    height: 40px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #0e0d0d;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .quick-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fefcfc;
+}
+
+footer .contact-info {
+    margin: 20px 0;
+}
+
+footer .social-media img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+/* Support Page Styles */
+.support {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.support h1 {
+    text-align: center;
+}
+
+.support form {
+    display: flex;
+    flex-direction: column;
+}
+
+.support form label {
+    margin: 10px 0 5px;
+}
+
+.support form input,
+.support form select,
+.support form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.support form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support form button:hover {
+    background-color: #005bb5;
+}
+
+#confirmation {
+    text-align: center;
+    color: green;
+}

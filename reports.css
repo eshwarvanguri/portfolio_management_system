@@ -1,0 +1,54 @@
+/* Report Page Styles */
+.report-content {
+    padding: 20px;
+}
+
+.financial-performance,
+.strategic-initiatives {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.financial-performance h2,
+.strategic-initiatives h2 {
+    margin-top: 0;
+}
+
+.performance-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.performance-item,
+.initiative-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.performance-item h3,
+.initiative-item h3 {
+    margin-top: 0;
+}
+
+.quick-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quick-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}

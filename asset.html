@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Detail | Apple Portfolio Management</title>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="asset.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/apple.svg" alt="Apple Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="goals.html">Goals</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="images/images.png" alt="User Profile">
+        </div>
+    </header>
+    <main>
+        <section class="asset-detail">
+            <h2>Apple Inc. (AAPL)</h2>
+            <div class="asset-summary">
+                <p>Current Value: $25,000</p>
+                <p>Profit/Loss: +$5,000 (+25%)</p>
+            </div>
+            <div class="performance-chart">
+                <canvas id="assetPerformanceChart"></canvas>
+            </div>
+            <div class="key-metrics">
+                <h3>Key Metrics</h3>
+                <p>ROI: 25%</p>
+                <p>Annual Growth Rate: 7.5%</p>
+                <p>Dividend Yield: 1.5%</p>
+            </div>
+            <div class="transactions">
+                <h3>Transactions</h3>
+                <ul>
+                    <li>Bought: 10 shares at $200 each</li>
+                    <li>Bought: 5 shares at $220 each</li>
+                    <li>Sold: 2 shares at $250 each</li>
+                </ul>
+            </div>
+            <div class="news-updates">
+                <h3>Relevant News</h3>
+                <ul>
+                    <li><a href="#">Apple releases new iPhone model</a></li>
+                    <li><a href="#">Apple's quarterly earnings report</a></li>
+                    <li><a href="#">Apple's stock price hits all-time high</a></li>
+                </ul>
+            </div>
+            <div class="upcoming-events">
+                <h3>Upcoming Events</h3>
+                <ul>
+                    <li>Q3 Earnings Call: July 30, 2024</li>
+                    <li>Dividend Payment: August 15, 2024</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="quick-links">
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: support@appleportfolio.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <div class="social-media">
+                <a href="#"><img src="images/face.img" alt="Facebook"></a>
+                <a href="#"><img src="images/x.jpg" alt="Twitter"></a>
+                <a href="#"><img src="images/linkd.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Apple Portfolio Management</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="asset.js"></script>
+</body>
+</html>

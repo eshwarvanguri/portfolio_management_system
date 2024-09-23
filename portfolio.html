@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Apple Portfolio Management</title>
+    <link rel="stylesheet" href="portfolio.css">
+     <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/apple.svg" alt="Apple Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="analysis.html">Analysis</a></li>
+                <li><a href="goals.html">Goals</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+        <div class="profile">
+            <img src="images/images.png" alt="User Profile">
+        </div>
+    </header>
+    <main>
+        <aside>
+            <h3>Filters</h3>
+            <form id="filtersForm">
+                <label for="assetType">Asset Type:</label>
+                <select id="assetType" name="assetType">
+                    <option value="all">All</option>
+                    <option value="stocks">Stocks</option>
+                    <option value="bonds">Bonds</option>
+                    <option value="real-estate">Real Estate</option>
+                    <option value="mutual-funds">Mutual Funds</option>
+                    <option value="etfs">ETFs</option>
+                    <option value="cash">Cash</option>
+                </select>
+                <label for="performance">Performance:</label>
+                <select id="performance" name="performance">
+                    <option value="all">All</option>
+                    <option value="positive">Positive</option>
+                    <option value="negative">Negative</option>
+                </select>
+                <label for="dateAcquired">Date Acquired:</label>
+                <input type="date" id="dateAcquired" name="dateAcquired">
+                <label for="sector">Sector:</label>
+                <select id="sector" name="sector">
+                    <option value="all">All</option>
+                    <option value="technology">Technology</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="finance">Finance</option>
+                    <option value="consumer-goods">Consumer Goods</option>
+                </select>
+                <button type="button" id="applyFilters">Apply Filters</button>
+            </form>
+        </aside>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <table id="portfolioTable">
+                <thead>
+                    <tr>
+                        <th>Asset Name</th>
+                        <th>Type</th>
+                        <th>Current Value</th>
+                        <th>Acquisition Cost</th>
+                        <th>Date Acquired</th>
+                        <th>Performance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple Inc. (AAPL)</td>
+                        <td>Stock</td>
+                        <td>$25,000</td>
+                        <td>$20,000</td>
+                        <td>2023-01-15</td>
+                        <td>+25%</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon.com Inc. (AMZN)</td>
+                        <td>Stock</td>
+                        <td>$20,000</td>
+                        <td>$16,000</td>
+                        <td>2022-11-10</td>
+                        <td>+20%</td>
+                    </tr>
+                    <tr>
+                        <td>Tesla Inc. (TSLA)</td>
+                        <td>Stock</td>
+                        <td>$18,000</td>
+                        <td>$15,000</td>
+                        <td>2022-05-22</td>
+                        <td>+20%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="addAsset">Add New Asset</button>
+        </section>
+    </main>
+    <footer>
+        <div class="quick-links">
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="contact-info">
+            <p>Email: support@appleportfolio.com</p>
+            <p>Phone: +1 234 567 890</p>
+            <div class="social-media">
+                <a href="#"><img src="images/face.img" alt="Facebook"></a>
+                <a href="#"><img src="images/x.jpg" alt="Twitter"></a>
+                <a href="#"><img src="images/linkd.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Apple Portfolio Management</p>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>

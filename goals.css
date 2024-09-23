@@ -1,0 +1,40 @@
+/* Goals Page Styles */
+.goal-list {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.goal-list h2 {
+    margin-top: 0;
+}
+
+.goal-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.goal-list li {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.goal-item h3 {
+    margin-top: 0;
+}
+
+.goal-progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.goal-progress-bar {
+    height: 20px;
+    background-color: #4caf50;
+}
